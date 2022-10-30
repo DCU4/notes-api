@@ -19,8 +19,8 @@ mongoose.connect(uri, { useNewUrlParser: true });
 
 
 
-app.set('view engine', 'ejs');
-app.use(express.static('public'));
+// app.set('view engine', 'ejs');
+// app.use(express.static('public'));
 app.use(cors());
 app.use(methodOverride('_method'));
 
