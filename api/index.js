@@ -2,7 +2,8 @@ var express = require("express"),
     app = express(),
     cors = require('cors'),
     mongoose = require('mongoose'),
-    methodOverride = require('method-override');
+    methodOverride = require('method-override'),
+    fs = require('fs');
 
 
 
